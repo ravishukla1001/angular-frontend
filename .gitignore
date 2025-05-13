@@ -16,6 +16,11 @@ out-tsc/
 *.sublime-workspace
 *.sublime-project
 
+# Exclude all environment files
+src/environments/
+!src/environments/environment.ts
+!src/environments/environment.development.ts
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
